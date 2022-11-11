@@ -1,10 +1,11 @@
 import React from 'react';
+import ProfileContainer from './ProfileContainer';
 
 const Welcome = () => {
     return (
         <div>
-            <h1>MERN Authentication</h1>
             <p>Welcome to my app.</p>
+            <ProfileContainer />
         </div>
     )
 }
